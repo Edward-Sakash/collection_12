@@ -13,3 +13,10 @@ Pangrams are sentences (i.e. strings) that contain all characters of the alphabe
 'Jackdaws love my big sphinx of quartz.'
 'Pack my box with five dozen liquor jugs.'
 ```
+Hint: A pangram is a sentence that includes every letter of the alphabet, A through Z
+you can use sets for this task
+
+Output:
+
+pangram('Waltz, bad nymph, for quick jigs vex.') --> True
+pangram('Not all characters.') --> False
